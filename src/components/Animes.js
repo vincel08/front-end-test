@@ -1,4 +1,3 @@
-import "../styles/hover.components.scss"
 import "../styles/animes.scss"
 
 import react from "react"

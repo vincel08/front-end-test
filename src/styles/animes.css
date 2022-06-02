@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap");
+.animes--container {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.title--container {
+  width: 90%;
+  height: 43px;
+  margin: auto;
+  margin-top: 56px;
+}
+.title--container h1 {
+  font-family: "Outfit", sans-serif;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 34px;
+  line-height: 43px;
+}
+.title--container h1 span {
+  color: #fbc94a;
+}
+
+.trending--animes--container {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+  width: 95.6%;
+  height: 291px;
+  margin-top: 26px;
+  padding-left: 57px;
+  overflow: hidden;
+}
+
+.without--content {
+  width: 457px;
+  height: 291px;
+  background-repeat: "no-repeat";
+  border-radius: "21px";
+}
+.without--content .anime--title {
+  width: 90%;
+  height: 30px;
+  margin: auto;
+  margin-top: 232px;
+  margin-bottom: -5px;
+}
+.without--content .anime--title h1 {
+  font-family: "Outfit", sans-serif;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+.without--content .anime--detail {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 16px;
+  margin: auto;
+}
+.without--content .anime--detail .description {
+  font-family: "Avernir LT Std", sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  margin-right: 88px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #747474;
+}
+.without--content .anime--detail .rating {
+  display: flex;
+}
+.without--content .anime--detail .rating img {
+  align-self: end;
+  width: 18px;
+  height: 17px;
+  margin-right: 2px;
+}
+.without--content .anime--detail .rating p {
+  font-family: "Avernir LT Std", sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.with--content {
+  width: 457px;
+  height: 291px;
+  background-repeat: "no-repeat";
+  border-radius: "21px";
+  cursor: pointer;
+}
+.with--content .anime--title {
+  width: 90%;
+  height: 30px;
+  margin: auto;
+  margin-top: 232px;
+  margin-bottom: -5px;
+}
+.with--content .anime--title h1 {
+  font-family: "Outfit", sans-serif;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+.with--content .anime--detail {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 16px;
+  margin: auto;
+}
+.with--content .anime--detail .description {
+  font-family: "Avernir LT Std", sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  margin-right: 88px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #747474;
+}
+.with--content .anime--detail .rating {
+  display: flex;
+}
+.with--content .anime--detail .rating img {
+  align-self: end;
+  width: 18px;
+  height: 17px;
+  margin-right: 2px;
+}
+.with--content .anime--detail .rating p {
+  font-family: "Avernir LT Std", sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.throwback--anime {
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+}
+
+.throwback--animes--container {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 16px;
+  width: 90%;
+  height: 427px;
+  margin: auto;
+  margin-top: 36px;
+  margin-bottom: 56px;
+}
+
+.return {
+  width: 90%;
+  height: 23px;
+  margin: auto;
+  margin-bottom: -38px;
+  margin-top: 27px;
+}
+.return h1 {
+  font-family: "Avernir LT Std", sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-style: normal;
+  width: 4%;
+  margin: 0;
+  font-size: 18px;
+  color: #747474;
+  cursor: pointer;
+}
+.return h1:hover {
+  font-family: "Avernir LT Std", sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-style: normal;
+  color: #fbc94a;
+  cursor: pointer;
+}/*# sourceMappingURL=animes.css.map */

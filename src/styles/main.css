@@ -11,47 +11,4 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #1a1a1a;
-}
-
-.title-container {
-  width: 90%;
-  height: 43px;
-  margin: auto;
-  margin-top: 56px;
-}
-.title-container h1 {
-  font-family: "Outfit", sans-serif;
-  color: #FFFFFF;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 34px;
-  line-height: 43px;
-}
-.title-container h1 span {
-  color: #fbc94a;
-}
-
-.trending-animes-container {
-  position: relative;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  -moz-column-gap: 16px;
-       column-gap: 16px;
-  width: 95.6%;
-  height: 291px;
-  margin-top: 26px;
-  padding-left: 57px;
-  overflow: hidden;
-}
-
-.throwback-animes-container {
-  position: relative;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 16px;
-  width: 90%;
-  height: 427px;
-  margin: auto;
-  margin-top: 36px;
-  margin-bottom: 56px;
 }/*# sourceMappingURL=main.css.map */

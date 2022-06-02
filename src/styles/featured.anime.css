@@ -89,7 +89,7 @@
   align-items: center;
   width: 48px;
   height: 44px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 5px;
 }
 .play-wrapper img {
@@ -119,4 +119,59 @@
   font-style: normal;
   font-size: 14px;
   line-height: 18px;
+}
+
+@media (max-width: 1210px) {
+  .body-container {
+    height: 534px;
+  }
+
+  .container {
+    margin-top: 195px;
+  }
+}
+@media (max-width: 1220px) {
+  .body-container {
+    height: 550px;
+  }
+
+  .title {
+    font-size: 27px;
+  }
+
+  .category {
+    font-size: 9px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .play {
+    width: 134px;
+    height: 42px;
+  }
+
+  .heart {
+    width: 44px;
+    height: 42px;
+  }
+}
+@media (max-width: 1160px) {
+  .body-container {
+    height: 505px;
+  }
+
+  .container {
+    margin-top: 165px;
+  }
+}
+@media (max-width: 1100px) {
+  .body-container {
+    height: 463px;
+  }
+
+  .container {
+    margin-top: 100px;
+  }
 }/*# sourceMappingURL=featured.anime.css.map */
