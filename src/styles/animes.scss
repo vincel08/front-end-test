@@ -1,0 +1,188 @@
+@use "./variables.scss" as v;
+
+.animes--container {
+  width: 100%;
+  height: max-content;
+}
+
+.title--container {
+  width: 90%;
+  height: 43px;
+  margin: auto;
+  margin-top: 56px;
+
+  h1 {
+    @include v.primary;
+    font-size: 34px;
+    line-height: 43px;
+
+    span {
+      color: #fbc94a;
+    }
+  }
+}
+
+.trending--animes--container {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 16px;
+  width: 95.6%;
+  height: 291px;
+  margin-top: 26px;
+  padding-left: 57px;
+  overflow: hidden;
+}
+
+.without--content {
+  width: 457px;
+  height: 291px;
+  background-repeat: "no-repeat";
+  border-radius: "21px";
+
+  .anime--title {
+    width: 90%;
+    height: 30px;
+    margin: auto;
+    margin-top: 232px;
+    margin-bottom: -5px;
+
+    h1 {
+      @include v.primary;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+
+  .anime--detail {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 16px;
+    margin: auto;
+
+    .description {
+      @include v.secondary;
+      margin: 0;
+      margin-right: 88px;
+      font-size: 12px;
+      line-height: 15px;
+      color: #747474;
+    }
+    .rating {
+      display: flex;
+
+      img {
+        align-self: end;
+        width: 18px;
+        height: 17px;
+        margin-right: 2px;
+      }
+
+      p {
+        @include v.secondary;
+        margin: 0;
+        font-size: 12px;
+        line-height: 15px;
+      }
+    }
+  }
+}
+
+.with--content {
+  width: 457px;
+  height: 291px;
+  background-repeat: "no-repeat";
+  border-radius: "21px";
+  cursor: pointer;
+
+  .anime--title {
+    width: 90%;
+    height: 30px;
+    margin: auto;
+    margin-top: 232px;
+    margin-bottom: -5px;
+
+    h1 {
+      @include v.primary;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+
+  .anime--detail {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 16px;
+    margin: auto;
+
+    .description {
+      @include v.secondary;
+      margin: 0;
+      margin-right: 88px;
+      font-size: 12px;
+      line-height: 15px;
+      color: #747474;
+    }
+    .rating {
+      display: flex;
+
+      img {
+        align-self: end;
+        width: 18px;
+        height: 17px;
+        margin-right: 2px;
+      }
+
+      p {
+        @include v.secondary;
+        margin: 0;
+        font-size: 12px;
+        line-height: 15px;
+      }
+    }
+  }
+}
+
+.throwback--anime {
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+}
+
+.throwback--animes--container {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 16px;
+  width: 90%;
+  height: 427px;
+  margin: auto;
+  margin-top: 36px;
+  margin-bottom: 56px;
+}
+
+.return {
+  width: 90%;
+  height: 23px;
+  margin: auto;
+  margin-bottom: -38px;
+  margin-top: 27px;
+
+  h1 {
+    @include v.secondary;
+    width: 4%;
+    margin: 0;
+    font-size: 18px;
+    color: #747474;
+    cursor: pointer;
+  }
+
+  h1:hover {
+    @include v.secondary;
+    color: #fbc94a;
+    cursor: pointer;
+  }
+}

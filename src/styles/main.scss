@@ -1,0 +1,14 @@
+@use "./variables.scss" as v;
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 1400px;
+  height: max-content;
+  background-image: url("../images/image.png");
+  // background-size: 1288px 950px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #1a1a1a;
+}

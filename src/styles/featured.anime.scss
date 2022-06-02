@@ -1,0 +1,168 @@
+@use "./variables.scss" as v;
+
+.body-container {
+  width: 90%;
+  height: 607px;
+  margin: auto;
+  margin-top: 220px;
+}
+
+.contents {
+  width: 50%;
+}
+
+.title {
+  @include v.primary;
+  font-size: 30px;
+}
+
+.category {
+  @include v.secondary;
+  width: 100%;
+  margin-top: -38px;
+  display: flex;
+  font-size: 12px;
+  line-height: 15px;
+
+  img {
+    width: 20px;
+    height: 19px;
+    margin-top: 6px;
+    margin-right: 4px;
+  }
+
+  p {
+    margin-right: 19px;
+  }
+}
+
+.description {
+  @include v.secondary;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.play-wrapper {
+  display: flex;
+  width: 100%;
+  height: max-content;
+
+  .play {
+    @include v.button;
+    display: flex;
+    justify-content: center;
+    width: 142px;
+    margin-right: 17px;
+    background: #106580;
+    cursor: pointer;
+
+    img {
+      align-self: center;
+      width: 14px;
+      height: 18px;
+      margin-right: 9px;
+    }
+
+    h1 {
+      @include v.secondary;
+      align-self: center;
+      font-size: 16px;
+    }
+  }
+
+  .heart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 44px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+  }
+
+  img {
+    width: 22px;
+    height: 20px;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 25px;
+  margin: auto;
+  margin-top: 245px;
+
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    width: 217px;
+    height: inherit;
+    margin: 0;
+
+    h1 {
+      @include v.primary;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+}
+
+@media (max-width: 1210px) {
+  .body-container {
+    height: 534px;
+  }
+
+  .container {
+    margin-top: 195px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .body-container {
+    height: 550px;
+  }
+
+  .title {
+    font-size: 27px;
+  }
+
+  .category {
+    font-size: 9px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .play {
+    width: 134px;
+    height: 42px;
+  }
+
+  .heart {
+    width: 44px;
+    height: 42px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .body-container {
+    height: 505px;
+  }
+
+  .container {
+    margin-top: 165px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .body-container {
+    height: 463px;
+  }
+
+  .container {
+    margin-top: 100px;
+  }
+}

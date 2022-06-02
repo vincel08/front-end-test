@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap");
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 44px;
+  margin: auto;
+  margin-top: 68px;
+}
+.nav h1 {
+  font-family: "Outfit", sans-serif;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  margin: auto;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: -webkit-max-content -webkit-max-content -webkit-max-content -webkit-max-content -webkit-max-content;
+  grid-template-columns: max-content max-content max-content max-content max-content;
+  justify-content: end;
+  gap: 10px;
+  width: 60%;
+  height: inherit;
+}
+.nav-menu h1 {
+  font-family: "Avernir LT Std", sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-style: normal;
+  margin-right: 45px;
+  font-size: 16px;
+  line-height: 19px;
+}
+.nav-menu button.signup {
+  box-sizing: border-box;
+  width: 112px;
+  height: 44px;
+  left: 1105px;
+  top: 68px;
+  border-radius: 5px;
+  background: none;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  color: #ffffff;
+}
+.nav-menu button.signup:hover {
+  box-sizing: border-box;
+  width: 112px;
+  height: 44px;
+  left: 1105px;
+  top: 68px;
+  border-radius: 5px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  color: #106580;
+}
+.nav-menu button.login {
+  box-sizing: border-box;
+  width: 112px;
+  height: 44px;
+  left: 1105px;
+  top: 68px;
+  border-radius: 5px;
+  background: #106580;
+  border-style: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+.nav-menu button.login:hover {
+  box-sizing: border-box;
+  width: 112px;
+  height: 44px;
+  left: 1105px;
+  top: 68px;
+  border-radius: 5px;
+  background: #106580;
+  border-style: blue;
+  cursor: pointer;
+  color: #ffffff;
+}/*# sourceMappingURL=navbar.css.map */

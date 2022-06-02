@@ -1,0 +1,138 @@
+@use "../styles/variables.scss" as v;
+
+.selected--anime--container {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 16px;
+  width: 90%;
+  height: 830px;
+  margin: auto;
+  margin-top: 26px;
+}
+
+.selected--anime--details {
+  display: grid;
+  row-gap: 17px;
+  grid-template-rows: 621px 308px;
+  width: 516px;
+
+  .anime--image--cover {
+    padding-top: 552px;
+    background-image: url("../images/image9.png");
+    background-repeat: no-repeat;
+    border-radius: 21px;
+
+    .title--container {
+      width: 90%;
+      margin: auto;
+      margin-bottom: -8px;
+
+      h1 {
+        @include v.primary;
+        margin: 0;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+      }
+    }
+
+    .details {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      height: 30px;
+      margin: auto;
+
+      .genre {
+        @include v.primary;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #747474;
+      }
+
+      .rating {
+        display: flex;
+        height: inherit;
+
+        img {
+          align-self: center;
+          width: 18px;
+          height: 17px;
+          margin-right: 4px;
+        }
+
+        p {
+          @include v.secondary;
+          align-self: center;
+          font-size: 12px;
+          line-height: 15px;
+        }
+      }
+    }
+  }
+
+  .story--summary--container {
+    width: 512px;
+
+    p {
+      @include v.secondary;
+      font-size: 20px;
+      line-height: 25px;
+      color: #747474;
+    }
+  }
+}
+
+.episodes--container {
+  display: grid;
+  row-gap: 31px;
+  grid-template-rows: 35px 252px 252px 269px;
+
+  .header--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 17px;
+
+    h1 {
+      @include v.primary;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+}
+
+.episodes {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+
+  img {
+    border-radius: 20px;
+  }
+
+  .description--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+      @include v.primary;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 25px;
+      margin-bottom: -11px;
+    }
+
+    p {
+      @include v.primary;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 25px;
+      color: #747474;
+    }
+  }
+}

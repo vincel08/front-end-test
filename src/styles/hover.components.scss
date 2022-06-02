@@ -1,0 +1,15 @@
+@use "../styles/variables.scss";
+
+.hover--components--container {
+  position: absolute;
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 898px;
+  height: 268px;
+
+  .hover--components {
+    position: absolute;
+    width: 448px;
+    height: 252px;
+  }
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+// font
+$font-color: #FFFFFF;
+$primary-font: 'Outfit', sans-serif;
+$secondary-font: 'Avernir LT Std', sans-serif;
+
+@mixin primary {
+  font-family: $primary-font;
+  color: $font-color;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@mixin secondary {
+  font-family: $secondary-font;
+  color: $font-color;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// button
+
+@mixin button {
+  box-sizing: border-box;
+  width: 112px;
+  height: 44px;
+  left: 1105px;
+  top: 68px;
+  border-radius: 5px;
+  // color: $font-color;
+  // border-style: none;
+}

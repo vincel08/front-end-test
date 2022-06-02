@@ -1,0 +1,64 @@
+@use "./variables" as v;
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 44px;
+  margin: auto;
+  margin-top: 68px;
+
+  h1 {
+    @include v.primary;
+    font-size: 24px;
+    margin: auto;
+  }
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: max-content max-content max-content max-content max-content;
+  justify-content: end;
+  gap: 10px;
+  width: 60%;
+  height: inherit;
+
+  h1 {
+    @include v.secondary;
+    margin-right: 45px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  button.signup {
+    @include v.button;
+    background: none;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    color: #ffffff;
+  }
+
+  button.signup:hover {
+    @include v.button;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    color: #106580;
+  }
+
+  button.login {
+    @include v.button;
+    background: #106580;
+    border-style: none;
+    cursor: pointer;
+    color: #ffffff;
+  }
+
+  button.login:hover {
+    @include v.button;
+    background: #106580;
+    border-style: blue;
+    cursor: pointer;
+    color: #ffffff;
+  }
+}
